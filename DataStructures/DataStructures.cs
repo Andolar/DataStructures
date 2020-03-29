@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace DataStructures
 {
-    public partial class Form1 : Form
+    public partial class DataStructures : Form
     {
-        public Form1()
+        public DataStructures()
         {
             InitializeComponent();
+        }
+
+        private void DataStructures_Load(object sender, EventArgs e)
+        {
+            var sc = new StandardStuff();
         }
     }
 }
